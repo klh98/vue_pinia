@@ -1,0 +1,150 @@
+@import './base.css';
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+} */
+
+body{
+  background-color: #f2f2f2;
+  color: #444;
+  margin: 0;
+}
+
+header{
+  text-align: center;
+  background-color: #e7e7e7;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img{
+  max-width: 60px;
+  transform: rotate(-10deg);
+}
+
+header h2{
+  margin: 0;
+  font-size: 20px;
+  padding-top: 25px;
+  margin-left: 15px;
+  color: #777;
+  transform: rotate(2deg);
+}
+
+/* task-list */
+
+.task-list{
+  max-width: 650px;
+  margin: 30px auto;
+}
+
+.task{
+  padding: 6px 20px;
+  width: 400px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: auto;
+  border-radius: 4px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task h3, .task .icons{
+  display: inline-block;
+}
+
+.task .icons .fav{
+  /* text-align: right; */
+  margin-right: 20px;
+
+}
+
+.icons:hover{
+  cursor: pointer;
+}
+
+/* filter nav */
+.filter{
+  width: 650px;
+  margin: 10px auto;
+  text-align: right;
+}
+
+.filter button{
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #fff;
+  border: 2px solid #555;
+  border-radius: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.active{
+  color: red;
+}
+
+.new-task-form{
+  background-color: #e7e7e7;
+  padding: 20px 0;
+}
+
+form{
+  max-width: 400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+
+}
+
+form button{
+  background-color: #ffd859;
+  border: 0;
+}
+
+form input{
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+
+
+
+/* a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
