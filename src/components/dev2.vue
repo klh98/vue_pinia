@@ -34,7 +34,7 @@
                 }
             }
 
-            return { handleSubmit, newTask }
+           
          }   
 
     }
